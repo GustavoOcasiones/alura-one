@@ -97,6 +97,7 @@ function FuncionParpadear(){
 }
 
 function FuncionPararParpadeo(){
+    opacidad=1;
     clearInterval(tiempo);
 }
 
