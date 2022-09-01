@@ -93,11 +93,10 @@ function FuncionParpadear(){
     
         opacidad = (opacidad ==1)? 0 : 1;
         mensajes.style.opacity = opacidad;
-    
 }
 
 function FuncionPararParpadeo(){
-    opacidad=1;
+    mensajes.style.opacity = 1;
     clearInterval(tiempo);
 }
 
