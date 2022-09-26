@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    
+    <head>
+        <meta charset="UTF-8">
+        <title>Juego Ahorcado</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+    <body>
+        
+        <header>
+            <div>
+                <img src="logo.png" class="logo">
+            </div>
+        </header>
+
+        <main>
+            <section>
+                <div id="PalabraAgregar">
+                    <input autofocus type="text" id="palabra" placeholder="Palabra a Agregar" maxlength="10" onkeypress="return sololetras(event)">
+                </div>
+                
+            </section>
+        </main>
+
+        <footer>
+            <div class="recomendacion">
+                <img src="Exclamation.png" class="logoExclamacion">
+                <p>Palabra Max. 10 caracteres, sin acentos</p>
+            </div>
+            <div class="BtnPagAgregar">
+                <input type="button" id="BtnGuardar" value="Guardar y empezar" onclick="Agregar_palabra()">
+                <a href="Principal.html"><input type="button" id="BtnCancelar" value="Cancelar"></a>
+            </div>
+        </footer>
+        
+        <script src="codigo.js"></script>
+        <script src="validacion.js"></script>
+        
+    </body>
+</html>

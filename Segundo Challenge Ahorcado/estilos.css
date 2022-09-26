@@ -1,0 +1,255 @@
+body{
+    background-color:#E5E5E5;
+}
+
+.logo{
+    position: absolute;
+    width: 120px;
+    height: 48px;
+    left: 2%;
+    top: 4%;
+}
+
+/* ------------------------------------------------ */
+/* ----Primera pagina, pagina "Pricipal" ---*/
+/* ------------------------------------------------ */
+
+
+#BtnIniciar{
+    background-color: #0A3871;;
+    position:absolute;
+    width: 317px;
+    height: 114px;
+    top:39%;
+    left:39%;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color:#E5E5E5;
+    transition: 0.5s;
+}
+#BtnIniciar:hover{
+    transform: scale(1.05);
+}
+
+
+#BtnAgregar{
+    position:absolute;
+    top:60%;
+    left:40%;
+    width: 285px;
+    height: 67px;
+    color: #0A3871;
+    background: #E5E5E5;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    transition: 0.5s;
+}
+#BtnAgregar:hover{
+    transform: scale(1.05);
+}
+/*------------------Termina primera Pagina "Principal"---------------------------*/
+
+/*-----------------------------------------------*/
+/* Segunda Pagina, pagina juegos. */
+/*-----------------------------------------------*/
+
+#tablero{
+
+    position: absolute;
+    top:2%;
+    left:35.3%;
+}
+
+#mensaje{
+    position: absolute;
+    top:35%;
+    left:60%;
+    color: #0A3871;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 25px;
+}
+
+#letras{
+    /* border: solid;
+    border-width: 2px;
+    border-color: black; */
+    position: absolute;
+    top:65%;
+    left:0%;
+    width: 100%;
+    height: 60px;
+    color: #0A3871;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+}
+
+
+table{
+    margin: auto;
+    border-collapse: separate;
+    border-spacing: 7px;
+}
+th, td{
+    padding: 0px 5px; 
+    width: 45px;
+    height: 50px;
+    border-top: none;
+    border-left:none;
+    border-right:none;
+    border-bottom:2px solid #0A3871;
+}
+
+#NoLetras{
+    position: absolute;
+    top:75%;
+    left:0%;
+    width: 100%;
+    height: 30px;
+    color: #0A3871;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25x;
+}
+
+
+/*-----------------------------------------------*/
+/* Estilo de Botones de la segunda y tercera pagina, pagina juegos y Agregar. */
+/*-----------------------------------------------*/
+
+.BtnPagJuego, .BtnPagAgregar{  /*ubicacion del div donde estan los botones*/
+    
+    text-align: center;
+    /* border: solid;
+    border-width: 2px;
+    border-color: black; */
+    display: inline;
+    position: absolute;
+    top:86%;
+    left:0%;
+    width: 100%;
+    height: 80px;
+
+}
+
+#BtnNuevoJuego, #BtnGuardar{
+    display:inline;   
+    width: 23%;
+    height: 50px;
+    background: #0A3871;
+    border: solid;
+    border-color:#0A3871;
+    border-radius: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin:10px 5px 0px 0px;
+    transition: 0.5s;
+}
+
+#BtnDesistir, #BtnCancelar{
+    display:inline;   
+    width:23%;
+    height:50px;
+    background:#D8DFE8;
+    border:solid;
+    border-color:#0A3871;
+    border-radius:24px;
+    border-width:1px;
+    font-family:'Inter';
+    font-style:normal;
+    font-size:16px;
+    line-height:19px;
+    color:#0A3871;
+    margin:10px 5px 0px 0px;
+    transition:0.5s;
+}
+#BtnNuevoJuego:hover{
+    transform: scale(1.05);
+}
+#BtnDesistir:hover{
+    transform: scale(1.05);
+}
+
+/* ------------------------------------------------ */
+/* ---- Efecto de Botones de tercera pagina, pagina "Agregar" ---*/
+/* ------------------------------------------------ */
+
+#BtnGuardar:hover{
+    background: #445d7c;
+}
+#BtnCancelar:hover{
+    background:#889db9;
+}
+
+/* ------------------------------------------------ */
+/* ----tercera pagina, pagina "Agregar" ---*/
+/* ------------------------------------------------ */
+
+#palabra{
+    background:#E5E5E5 ;
+    color: #0A3871;
+    border: none;
+    position:absolute;
+    width: 577px;
+    height: 48px;
+    left: 13%;
+    top: 16%;
+    font-family:'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    outline: none;
+}
+
+#palabra::placeholder{
+    color: #0A3871;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    opacity: 1;
+}
+
+.recomendacion{   
+    /* border: solid;
+    border-width: 2px;
+    border-color: black; */
+    display: inline;
+    position: absolute;
+    top:83%;
+    left:0%;
+    width: 100%;
+    height: 20px;
+}
+
+.logoExclamacion{
+    /*border: solid;
+    border-width: 1px;
+    border-color: black;*/
+    display: inline;
+    padding: 0px 0px 0px 26%;
+    width: 16px;
+    height: 16px;
+
+}
+
+.recomendacion p{
+    /* border: solid;
+    border-width: 1px;
+    border-color: black; */
+    display: inline;
+    padding: 0px 0px 0px 3px;
+    margin: 0px;
+    vertical-align:top;
+    line-height: 18px;
+}
+
+
+/* --------------------Termina tercera pagina "Agregar"----------------------- */
